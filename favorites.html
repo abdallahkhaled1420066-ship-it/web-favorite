@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,36 +8,108 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header class="site-header" id="site-header"></header>
+
   <main class="page">
+
+    <!-- Page heading -->
     <section class="page-title">
-      <h1>My favorites</h1>
+      <h1>My Favorites</h1>
       <p id="fav-count" class="muted">2 saved recipes</p>
     </section>
+
+    <!-- Favorite recipes -->
     <div class="card-grid" id="fav-grid">
+
+      <!-- Koshary card -->
       <article class="recipe-card">
-        <div class="card-img img-main" role="img" aria-label="Koshary photo placeholder"></div>
-        <div class="card-body"><span class="badge">Main Course</span><h3>Koshary</h3>
-          <p>Rice, lentils and pasta with spicy tomato sauce.</p>
-          <div class="card-actions"><a class="btn btn-small" href="recipe-details.html">View recipe</a>
-            <button type="button" class="btn btn-small btn-danger remove-fav">Remove</button></div></div>
+
+        <div
+          class="card-img img-main"
+          role="img"
+          aria-label="Koshary photo placeholder">
+        </div>
+
+        <div class="card-body">
+          <span class="badge">Main Course</span>
+
+          <h3>Koshary</h3>
+
+          <p>
+            Rice, lentils and pasta with spicy tomato sauce.
+          </p>
+
+          <div class="card-actions">
+            <a class="btn btn-small" href="recipe-details.html">
+              View recipe
+            </a>
+
+            <button
+              type="button"
+              class="btn btn-small btn-danger remove-fav">
+              Remove
+            </button>
+          </div>
+        </div>
+
       </article>
+
+      <!-- Om Ali card -->
       <article class="recipe-card">
-        <div class="card-img img-dessert" role="img" aria-label="Om Ali photo placeholder"></div>
-        <div class="card-body"><span class="badge">Dessert</span><h3>Om Ali</h3>
-          <p>Warm pastry pudding baked with milk and nuts.</p>
-          <div class="card-actions"><a class="btn btn-small" href="recipe-details.html">View recipe</a>
-            <button type="button" class="btn btn-small btn-danger remove-fav">Remove</button></div></div>
+
+        <div
+          class="card-img img-dessert"
+          role="img"
+          aria-label="Om Ali photo placeholder">
+        </div>
+
+        <div class="card-body">
+          <span class="badge">Dessert</span>
+
+          <h3>Om Ali</h3>
+
+          <p>
+            Warm pastry pudding baked with milk and nuts.
+          </p>
+
+          <div class="card-actions">
+            <a class="btn btn-small" href="recipe-details.html">
+              View recipe
+            </a>
+
+            <button
+              type="button"
+              class="btn btn-small btn-danger remove-fav">
+              Remove
+            </button>
+          </div>
+        </div>
+
       </article>
+
     </div>
+
+    <!-- Empty state -->
     <div class="empty-state" id="fav-empty" hidden>
       <h2>No favorites yet</h2>
-      <p>Save a recipe from the browse page and it will show up here.</p>
-      <a class="btn" href="browse.html">Browse recipes</a>
+
+      <p>
+        Save a recipe from the browse page and it will show up here.
+      </p>
+
+      <a class="btn" href="browse.html">
+        Browse recipes
+      </a>
     </div>
+
   </main>
 
-  <footer class="site-footer"><p>Recipe Finder &mdash; IS231 Web Technology, Phase 1</p></footer>
+  <footer class="site-footer">
+    <p>Recipe Finder &mdash; IS231 Web Technology, Phase 1</p>
+  </footer>
+
   <script src="app.js"></script>
+
 </body>
 </html>
