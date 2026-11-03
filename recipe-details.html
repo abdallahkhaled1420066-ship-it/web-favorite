@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipe Details | Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main class="page">
+    <a class="back-link" href="browse.html">Back to recipes</a>
+    <article class="details">
+      <div class="card-img img-main" role="img" aria-label="Koshary photo placeholder"></div>
+      <div>
+        <div class="details-head">
+          <div><span class="badge">Main Course</span><h1>Koshary</h1></div>
+          <button type="button" class="fav-btn" aria-pressed="false" data-off="♡ Add to favorites" data-on="♥ Remove from favorites">♡ Add to favorites</button>
+        </div>
+        <p class="meta"><span>Recipe ID: RF-001</span><span>Serves 4</span><span>Prep 45 min</span></p>
+        <p>A hearty Egyptian classic: rice, lentils and pasta layered and topped with tomato sauce and crispy fried onions.</p>
+      </div>
+    </article>
+
+    <section aria-labelledby="ing">
+      <h2 id="ing" class="section-title">Ingredients</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Ingredient</th><th scope="col">Quantity</th></tr></thead>
+          <tbody>
+            <tr><td>Rice</td><td>1 cup</td></tr>
+            <tr><td>Brown lentils</td><td>1 cup</td></tr>
+            <tr><td>Short pasta</td><td>1 cup</td></tr>
+            <tr><td>Tomatoes</td><td>4 large</td></tr>
+            <tr><td>Onions</td><td>3 medium</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="how">
+      <h2 id="how" class="section-title">Instructions</h2>
+      <ol class="instructions">
+        <li>Boil the lentils until tender, then drain.</li>
+        <li>Cook the rice with the lentils and set aside.</li>
+        <li>Boil the pasta in salted water and drain.</li>
+        <li>Simmer the tomatoes with spices into a thick sauce.</li>
+        <li>Fry the sliced onions until crisp.</li>
+        <li>Layer rice, pasta, sauce and onions on a plate.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Recipe Finder &mdash; IS231 Web Technology, Phase 1</p></footer>
+  <script src="app.js"></script>
+</body>
+</html>
